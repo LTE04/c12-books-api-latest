@@ -1,0 +1,20 @@
+{
+  "name": "utm/books-api-jwt",
+  "description": "SCSM2223 Chapter 11 Books API with MySQL PDO and JWT Auth",
+  "type": "project",
+  "require": {
+    "php": ">=8.1",
+    "slim/slim": "4.*",
+    "slim/psr7": "^1.6",
+    "vlucas/phpdotenv": "^5.6",
+    "firebase/php-jwt": "^6.11.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "scripts": {
+    "start": "php -S localhost:8000 -t public"
+  }
+}

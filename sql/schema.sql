@@ -3,10 +3,7 @@
 -- fresh-install block below.
 
 -- ─── Option A: Fresh install ─────────────────────────────────────────────────
-CREATE DATABASE IF NOT EXISTS books_api
-  CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
-USE books_api;
 
 DROP TABLE IF EXISTS audit_log;
 DROP TABLE IF EXISTS books;
